@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.View;
 
 import com.ken.animationsprojects.AnimationTween.TweenAnimationActivity;
+import com.ken.animationsprojects.RevealAnimation.RevealAnimationActivity;
+import com.ken.animationsprojects.RippleEffect.RippleEffectActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -27,6 +29,16 @@ public class MainActivity extends AppCompatActivity {
         log("aqui");
         startActivity(new Intent(this, TweenAnimationActivity.class));
 
+    }
+
+    @OnClick(R.id.animation3)
+    public void animation3(View view) {
+        startActivity(new Intent(this, RippleEffectActivity.class));
+    }
+
+    @OnClick(R.id.animation_4)
+    public void animation4(View v) {
+        startActivity(new Intent(this, RevealAnimationActivity.class));
     }
 
     public void log(String content) {

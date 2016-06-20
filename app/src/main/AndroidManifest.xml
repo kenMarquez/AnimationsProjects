@@ -15,7 +15,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnimationTween.TweenAnimationActivity"></activity>
+        <activity android:name=".AnimationTween.TweenAnimationActivity" />
+        <activity android:name=".RevealAnimation.RevealAnimationActivity" />
+        <activity android:name=".RippleEffect.RippleEffectActivity" />
+        <activity android:name=".AnimationStateView.AnimationSateActivity"></activity>
     </application>
 
 </manifest>
