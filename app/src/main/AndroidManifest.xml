@@ -18,7 +18,8 @@
         <activity android:name=".AnimationTween.TweenAnimationActivity" />
         <activity android:name=".RevealAnimation.RevealAnimationActivity" />
         <activity android:name=".RippleEffect.RippleEffectActivity" />
-        <activity android:name=".AnimationStateView.AnimationSateActivity"></activity>
+        <activity android:name=".AnimationStateView.AnimationSateActivity" />
+        <activity android:name=".viewproperties.ViewPropertiesActivity"></activity>
     </application>
 
 </manifest>

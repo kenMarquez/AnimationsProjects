@@ -9,7 +9,17 @@
     </item>
     <item android:state_enabled="true" android:state_focused="true" android:state_pressed="false">
         <set>
-            <objectAnimator android:duration="100" android:propertyName="translationZ" android:valueTo="0" android:valueType="floatType" />
+            <objectAnimator
+                android:duration="100"
+                android:propertyName="translationZ"
+                android:valueTo="0"
+                android:valueType="floatType" />
+
+            <objectAnimator
+                android:duration="200"
+                android:propertyName=""
+                android:valueTo="0"
+                android:valueType="floatType" />
         </set>
     </item>
 </selector>

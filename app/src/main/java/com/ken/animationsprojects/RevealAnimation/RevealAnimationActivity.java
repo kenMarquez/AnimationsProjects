@@ -70,6 +70,7 @@ public class RevealAnimationActivity extends AppCompatActivity {
         // create the animator for this view (the start radius is zero)
         Animator anim =
                 ViewAnimationUtils.createCircularReveal(revealLayout, cx, cy, 0, finalRadius);
+        anim.setDuration(600);
 
         // make the view visible and start the animation
         revealLayout.setVisibility(View.VISIBLE);

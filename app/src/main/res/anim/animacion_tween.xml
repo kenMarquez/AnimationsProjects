@@ -19,12 +19,12 @@
         android:toYScale="1.5" />
 
     <!--<rotate-->
-        <!--android:duration="2000"-->
-        <!--android:fromDegrees="0"-->
-        <!--android:pivotX="50%"-->
-        <!--android:pivotY="50%"-->
-        <!--android:startOffset="4000"-->
-        <!--android:toDegrees="360" />-->
+    <!--android:duration="2000"-->
+    <!--android:fromDegrees="0"-->
+    <!--android:pivotX="50%"-->
+    <!--android:pivotY="50%"-->
+    <!--android:startOffset="4000"-->
+    <!--android:toDegrees="360" />-->
 
     <!--<alpha-->
     <!--android:duration="2000"-->
